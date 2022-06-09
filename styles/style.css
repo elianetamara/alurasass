@@ -174,4 +174,57 @@ nav ul li a:hover {
   background-color: #74959A;
   border-color: #F1E0AC;
 }
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #495371;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: -webkit-gradient(linear, right top, left top, from(#495371), color-stop(#74959A), color-stop(#F1E0AC), to(#495371));
+  background: linear-gradient(to left, #495371, #74959A, #F1E0AC, #495371);
+}
+
+footer i {
+  color: red;
+}
+
+#curiosidades {
+  padding: 1rem;
+  text-align: center;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#curiosidades h3 {
+  color: #495371;
+  font-size: 1.2rem;
+}
+
+#curiosidades h4 {
+  color: #74959A;
+  font-size: 1rem;
+}
+
+#curiosidades p {
+  margin-top: 5px;
+  color: #495371;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+#curiosidades .img-pf {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #74959A;
+}
+
+#curiosidades .img-pf img {
+  max-width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
