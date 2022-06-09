@@ -1,31 +1,42 @@
 @import '../abstract/variaveis';
 
 #curiosidades {
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     margin: 5px;
     display: flex;
     justify-content: space-evenly;
-    h3 {
-        color: $cor-primaria;
-        font-size: $tamanho-do-texto/2.5;
-    }
-    h4 {
-        color: $cor-secundaria;
-        font-size: $tamanho-do-texto/3;
-    }
-    p {
-        margin-top: 5px;
-        color: $cor-primaria;
-        font-size: $tamanho-do-texto/3;
-        font-weight: 300;
-        line-height: 1.25rem;
-    }
+    padding: 30px;
     .img-pf {
       padding-bottom: 2px;
       border-bottom: 6px solid $cor-secundaria;
       img {
           max-width: 100%;
       }
-  }
+    }
+    .texto {
+      width: 300px;
+      text-align: center;
+      border: 6px solid $cor-secundaria;
+      h3 {
+        color: $cor-primaria;
+        font-size: $tamanho-do-texto/2.5;
+        margin-bottom: 0.25rem;
+        margin-top: 20px;
+      }
+      h4 {
+        color: $cor-secundaria;
+        font-size: $tamanho-do-texto/3;
+        margin-top: 10px;
+        padding: 20px;
+      }
+      p {
+        margin-top: 5px;
+        color: $cor-primaria;
+        font-size: $tamanho-do-texto/3;
+        font-weight: 300;
+        line-height: 1.25rem;
+        padding: 20px;
+      }
+    }
 }
